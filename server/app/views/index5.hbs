@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body style="background:grey;">
+<div>
+    a.com index
+</div>
+
+
+<script src="http://style.c.aliimg.com/fdevlib/js/gallery/jquery/jquery-latest.js"></script>
+<script>
+   var foo = function(data){alert(data.name)};
+   var script = document.createElement('script');
+   script.src = "//b.com/data.js?callback=foo"
+   document.body.appendChild(script);
+
+</script>
+
+</body>
+</html>
